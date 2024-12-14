@@ -1,0 +1,26 @@
+/* LoadingComponent.scss */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 50vh;
+  gap: 2rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.loading-container .MuiCircularProgress-root {
+  color: #007bff; // Yükleme simgesinin rengi
+}
+
+.loading-container .MuiTypography-root {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.loading-container .error-message {
+  color: #ff4d4d; // Hata mesajının rengi
+  font-size: 18px;
+}

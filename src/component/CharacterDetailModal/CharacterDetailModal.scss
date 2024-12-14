@@ -1,0 +1,34 @@
+
+
+/* Google Fonts üzerinden Poppins ffontunu daihl ediypruz */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+/* Modal içeriği içim genel düzelneme */
+.modal-content {
+  display: flex;  
+  flex-direction: column; 
+  align-items: center; 
+  gap: 1rem; 
+  font-family: 'Poppins', sans-serif; 
+}
+
+/* Karakterin fotoğrafıno yuvarlak yapmak içim stil veriyoruz */
+.modal-image {
+  border-radius: 50%; 
+  width: 150px; 
+  height: 150px; 
+}
+
+/* Modal içeriğimdeki metinlerin stilini ayarlıyorz */
+.modal-content .MuiTypography-root {
+  font-size: 16px; 
+  color: #333; 
+  margin-top: 10px;
+}
+
+/* Dialog başlık stilimi ayarlıyoruz */
+.MuiDialogTitle-root {
+  text-align: center; 
+  font-size: 1.5rem; 
+  font-weight: 600; 
+}

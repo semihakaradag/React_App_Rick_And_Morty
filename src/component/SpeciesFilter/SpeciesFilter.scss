@@ -1,0 +1,121 @@
+.filter-container {
+  margin-bottom: 2rem;
+  text-align: center;
+  background-color: #f7f9fc;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Başlık kısmı */
+.filter-title {
+  font-weight: 500;
+  cursor: pointer;
+  user-select: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  color: #1976d2;
+}
+
+/* Seçenek butonlarının düzeni */
+.filter-buttons {
+  display: flex;
+  flex-direction: column; /* Butonları alt alta sıralamak için flex-direction: column kullanıyoruz */
+  gap: 1rem;
+  justify-content: center;
+}
+
+.filter-buttons button {
+  font-weight: 400;
+  font-size: 0.9rem;
+  padding: 8px 14px;
+  min-width: 80px;
+  min-height: 30px;
+}
+
+/* Seçilen buton stili */
+.filter-buttons button.selected {
+  background-color: #1976d2;
+  color: #fff;
+}
+
+.filter-buttons button:hover {
+  background-color: #1565c0;
+}
+
+/* Clear filters butonu */
+.clear-filters {
+  font-size: 1rem;
+  font-weight: 300;
+  text-decoration: underline;
+  color: #1976d2;
+}
+
+.clear-filters:hover {
+  color: #1565c0;
+}
+
+/* Species filter - Butonlar arasındaki boşluğu ve hizalamayı düzenliyoruz */
+.species-buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+
+.species-buttons button {
+  font-weight: 400;
+  font-size: 0.9rem;
+  padding: 8px 14px;
+  min-width: 80px;
+  min-height: 30px;
+}
+
+.species-buttons button.selected {
+  background-color: #1976d2;
+  color: #fff;
+}
+
+.species-buttons button:hover {
+  background-color: #1565c0;
+}
+
+/* Clear Filters butonu */
+.clear-filters-button {
+  font-size: 1rem;
+  font-weight: 300;
+  text-decoration: underline; 
+  color: #1976d2; 
+  padding: 0;
+  text-align: center;
+}
+
+/* Clear Filters butonunun hover durumunda rengi değişir */
+.clear-filters-button:hover {
+  color: #1565c0;
+}
+
+/* Clear species butonunun stilini düzenleme */
+.clear-species-button {
+  font-size: 1rem;
+  font-weight: 300;
+  text-decoration: underline;
+  color: #1976d2; 
+  padding: 0;
+  text-align: center;
+}
+
+.clear-species-button:hover {
+  color: #1565c0; 
+}
+
+/* Küçük ekranlarda butonlar arasında boşluk */
+@media (max-width: 600px) {
+  .clear-filters-button, .clear-species-button {
+    font-size: 0.8rem;
+  }
+}
+
+

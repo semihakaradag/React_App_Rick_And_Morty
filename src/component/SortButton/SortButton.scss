@@ -1,0 +1,38 @@
+.sort-button {
+    margin-bottom: 2rem;
+    margin-left: auto;
+    font-size: 0.775rem; 
+    padding: 10px 20px;
+    color: #1976d2; 
+    background-color: #f7f9fc; 
+    border: 1px solid #1976d2; 
+    border-radius: 8px; 
+    text-transform: uppercase; 
+    text-align: center; 
+    white-space: normal;
+    overflow: hidden; 
+    line-height: 1.2; 
+    width: 100%;
+    max-width: 220px; 
+    display: inline-block; 
+  }
+  
+  /* Buton için yukarı kaydırma */
+  .MuiButton-root {
+    position: relative; 
+    top: -10px; 
+  }
+  
+  /* Hover durumunda renk değişimi */
+  .sort-button:hover {
+    background-color: #e3f2fd; 
+  }
+  
+  /* Responsive - küçük ekranlar için yazı boyutunu küçültüyoruz */
+  @media (max-width: 600px) {
+    .sort-button {
+      font-size: 0.675rem; /* Dar ekranlarda yazı boyutunu küçült */
+      padding: 8px 12px;
+    }
+  }
+  
